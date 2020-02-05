@@ -45,17 +45,17 @@ restart.addEventListener('click', ()=>{
 
 //HOUSE CHOICE 
 const houseSelect = () =>{
-    let random = Math.floor(Math.random())*3;
-    
-    if(random > 2){
+    let random = Math.floor((Math.random()*3));
+    console.log(random);
+    if(random == 2){
         houseChoice = "rock";
         house.innerHTML = '<img src="images/icon-rock.svg">';
     }
-    else if(random > 1){
+    else if(random == 1){
         houseChoice = "paper";
         house.innerHTML = '<img src="images/icon-paper.svg">';
     }
-    else{
+    else if(random == 0){
         houseChoice = "scissors";
         house.innerHTML = '<img src="images/icon-scissors.svg">';
     }

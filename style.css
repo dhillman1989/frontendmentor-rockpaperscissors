@@ -116,10 +116,12 @@ button{
     box-shadow: -5px 5px 30px 3px #000;
     padding: 20px;
     border-radius: 50%;
+    background: #fff;
 }
 
 .option{
     margin: -20px;
+    
 }
 
 .selection .option:nth-of-type(2){
