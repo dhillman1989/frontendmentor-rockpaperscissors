@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" type ="text/css" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution span{ display: block; width: 500px;}
+  </style>
+</head>
+
+<body>
+
+  <div class="hud">
+    <div>
+      <p>ROCK</p>
+      <p>PAPER</p>
+      <p>SCISSOR</p>
+    </div>
+    <div class="score">
+      <h5>Score</h5>
+      <span class="points">0</span>
+    </div>
+  </div>
+
+ <button id="rules">
+   Rules
+</button>
+
+<div class="selection">
+   <div class="option paper"><img src="images/icon-paper.svg"></div>
+   <div class="option scissors"><img src="images/icon-scissors.svg"></div>
+   <div class="option rock"><img src="images/icon-rock.svg"></div>
+</div>
+
+
+
+  <div class="activegame hidden">
+    <div>
+      <h2>You Picked</h2>
+      <div id ="player"></div>
+    </div>
+    <div>
+      <h2>The House Picked</h2>
+      <div id="house"></div>
+    </div>
+  </div>
+
+  <div class="result">
+    <span class="youwin hidden">You Win</span>
+    <span class="youlose hidden">You Lose</span>
+  
+    <button id="playagain" class="hidden">Play Again</button>
+  </div>
+
+  
+  <div class="attribution">
+   <span>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Dave Hillman</a>.
+   </span>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
