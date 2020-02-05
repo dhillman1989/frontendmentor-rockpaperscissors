@@ -45,7 +45,7 @@ restart.addEventListener('click', ()=>{
 
 //HOUSE CHOICE 
 const houseSelect = () =>{
-    let random = Math.random()*3;
+    let random = Math.floor(Math.random())*3;
     
     if(random > 2){
         houseChoice = "rock";
