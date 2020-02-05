@@ -118,6 +118,10 @@ button{
     border-radius: 50%;
 }
 
+.option{
+    margin: -20px;
+}
+
 .selection .option:nth-of-type(2){
     align-self: flex-end;
     
