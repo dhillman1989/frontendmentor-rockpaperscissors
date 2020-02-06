@@ -12,7 +12,6 @@ body{
     margin: 0;
     width: 100wv;
     height: 100vh;
-    
 }
 
 .hud{
@@ -99,7 +98,6 @@ button{
 .result{
     display:flex;
     justify-content: center;
-    color: #fff;
     font-weight: bold;
     font-size: 38px;
 }
